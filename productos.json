@@ -3,28 +3,253 @@
       {
         "nombre": "Chang",
         "tipo": "Cerveza",
-        "estilo": "Lager Beer",
+        "estilo": "Lager",
         "origen": "Tailandia",
-        "precio": 15.99,
-        "imagen": "./assets/Cervezas/cerveza1.png",
+        "precio": 1105.50,
+        "imagen": "./assets/cerveza1.png",
         "disponible": true
       },
       {
         "nombre": "Singha Lager Beer",
         "tipo": "Cerveza",
-        "estilo": "Lager Beer",
+        "estilo": "Lager",
         "origen": "Tailandia",
-        "precio": 15.99,
-        "imagen": "./assets/Cervezas/cerveza2.png",
-        "disponible": true
+        "precio": 1105.50,
+        "imagen": "./assets/cerveza2.png",
+        "disponible": false
       },
       {
         "nombre": "Duff",
         "tipo": "Cerveza",
-        "estilo": "Lager Beer",
+        "estilo": "Lager",
         "origen": "Brasil",
-        "precio": 15.99,
-        "imagen": "./assets/Cervezas/cerveza3.png",
+        "precio": 1300.50,
+        "imagen": "./assets/cerveza3.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Hoegaarden",
+        "tipo": "Cerveza",
+        "estilo": "Trigo",
+        "origen": "Bélgica",
+        "precio": 820.99,
+        "imagen": "./assets/cerveza4.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Budweiser",
+        "tipo": "Cerveza",
+        "estilo": "Lager",
+        "origen": "Estados Unidos",
+        "precio": 1050.99,
+        "imagen": "./assets/cerveza5.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Heineken",
+        "tipo": "Cerveza",
+        "estilo": "Pilsen",
+        "origen": "Holanda",
+        "precio": 1400.50,
+        "imagen": "./assets/cerveza6.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Corona",
+        "tipo": "Cerveza",
+        "estilo": "Light Lager",
+        "origen": "Mexico",
+        "precio": 1150.99,
+        "imagen": "./assets/cerveza7.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Barba Roja",
+        "tipo": "Cerveza",
+        "estilo": "Pale ale",
+        "origen": "Argentina",
+        "precio": 729.50,
+        "imagen": "./assets/cerveza8.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Sol",
+        "tipo": "Cerveza",
+        "estilo": "Lager",
+        "origen": "Mexico",
+        "precio": 1070.50,
+        "imagen": "./assets/cerveza9.png",
+        "disponible": false
+      },
+      {
+        "nombre": "1906 reserva",
+        "tipo": "Cerveza",
+        "estilo": "Ale",
+        "origen": "España",
+        "precio": 1250.99,
+        "imagen": "./assets/cerveza10.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Temple Honey",
+        "tipo": "Cerveza",
+        "estilo": "Honey",
+        "origen": "Argentina",
+        "precio": 850.99,
+        "imagen": "./assets/Cervezas/cerveza11.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Imperial IPA",
+        "tipo": "Cerveza",
+        "estilo": "IPA",
+        "origen": "Argentina",
+        "precio": 1120.99,
+        "imagen": "./assets/Cervezas/cerveza12.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Antarctica",
+        "tipo": "Cerveza",
+        "estilo": "Pilsen",
+        "origen": "Brasil",
+        "precio": 1350.99,
+        "imagen": "./assets/Cervezas/cerveza13.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Antares Honey",
+        "tipo": "Cerveza",
+        "estilo": "Honey",
+        "origen": "Argentina",
+        "precio": 702.99,
+        "imagen": "./assets/Cervezas/cerveza14.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Viejo Skill Rubia Debilidad",
+        "tipo": "Cerveza",
+        "estilo": "Cream Ale",
+        "origen": "Argentina",
+        "precio": 950.99,
+        "imagen": "./assets/Cervezas/cerveza15.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Bierhaus Argentipa",
+        "tipo": "Cerveza",
+        "estilo": "IPA",
+        "origen": "Argentina",
+        "precio": 815.99,
+        "imagen": "./assets/Cervezas/cerveza16.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Patagonia Lager",
+        "tipo": "Cerveza",
+        "estilo": "Lager",
+        "origen": "Argentina",
+        "precio": 1220.50,
+        "imagen": "./assets/Cervezas/cerveza17.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Patagonia Küné",
+        "tipo": "Cerveza",
+        "estilo": "Pale ale",
+        "origen": "Argentina",
+        "precio": 1280.50,
+        "imagen": "./assets/Cervezas/cerveza18.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Patagonia Amber Lager",
+        "tipo": "Cerveza",
+        "estilo": "Amber Lager",
+        "origen": "Argentina",
+        "precio": 1280.50,
+        "imagen": "./assets/Cervezas/cerveza19.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Patagonia 24.7",
+        "tipo": "Cerveza",
+        "estilo": "IPA",
+        "origen": "Argentina",
+        "precio": 1350.50,
+        "imagen": "./assets/Cervezas/cerveza20.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Stella Artois",
+        "tipo": "Cerveza",
+        "estilo": "Lager",
+        "origen": "Bélgica",
+        "precio": 1600.99,
+        "imagen": "./assets/Cervezas/cerveza21.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Ortuzar Honey",
+        "tipo": "Cerveza",
+        "estilo": "Honey",
+        "origen": "Argentina",
+        "precio": 890.50,
+        "imagen": "./assets/Cervezas/cerveza22.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Stella Artois Noire",
+        "tipo": "Cerveza",
+        "estilo": "Stout",
+        "origen": "Bélgica",
+        "precio": 1690.99,
+        "imagen": "./assets/Cervezas/cerveza23.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Santa Fe",
+        "tipo": "Cerveza",
+        "estilo": "Lager",
+        "origen": "Argentina",
+        "precio": 1280.50,
+        "imagen": "./assets/Cervezas/cerveza24.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Bavaria 0.0%",
+        "tipo": "Cerveza",
+        "estilo": "Sin alcohol",
+        "origen": "Colombia",
+        "precio": 880.50,
+        "imagen": "./assets/Cervezas/cervezasin1.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Estrella Galicia 0.0%",
+        "tipo": "Cerveza",
+        "estilo": "Sin alcohol",
+        "origen": "España",
+        "precio": 920.50,
+        "imagen": "./assets/Cervezas/cervezasin2.png",
+        "disponible": false
+      },
+      {
+        "nombre": "Stella Artois 0.0%",
+        "tipo": "Cerveza",
+        "estilo": "Sin alcohol",
+        "origen": "Bélgica",
+        "precio": 990.50,
+        "imagen": "./assets/Cervezas/cervezasin3.png",
+        "disponible": true
+      },
+      {
+        "nombre": "Heineken 0.0",
+        "tipo": "Cerveza",
+        "estilo": "Sin alcohol",
+        "origen": "Holanda",
+        "precio": 780.50,
+        "imagen": "./assets/Cervezas/cervezasin3.png",
         "disponible": true
       }
     ]
