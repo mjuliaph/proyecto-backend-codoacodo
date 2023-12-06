@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     <td>${producto.subcategoria}</td>
                     <td>${producto.tamano_cc} cc</td>
                     <td>
-                        <a href="#" class="edit-icon" data-id="${producto.id}">
-                            <i class="fa fa-edit"></i>
-                        </a>
-                        <a href="#" class="delete-icon" data-id="${producto.id}">
+                    <a href="modificacion_producto.html?id=${producto.id}" class="edit-icon">
+                        <i class="fa fa-edit"></i>
+                    </a>
+                       <a href="#" class="delete-icon" data-id="${producto.id}">
                             <i class="fa fa-trash"></i>
                         </a>
                     </td>
