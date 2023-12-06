@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Tomar solo los primeros 5 productos de cada categoría
                 categorias[categoria].slice(0, 5).forEach(producto => {
                     html += `<div class="card" style="width: 18rem;">
-                        <img src="./assets/${categoria.toLowerCase()}1.png" class="card-img-top" alt="${categoria.toLowerCase()}">
-                        <div class="card-body">
+                    <img src="./assets/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
+                            <div class="card-body">
                             <h5 class="card-title">$${producto.precio}</h5>
                             <p class="card-text">${producto.nombre} ${producto.tamano_cc}cc</p>
                             <p>${producto.subcategoria}</p>
