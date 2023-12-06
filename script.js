@@ -16,28 +16,27 @@ document.addEventListener('DOMContentLoaded', function () {
         let cardHTML = '';
         if (producto.imagen && typeof producto.imagen === 'string' && producto.imagen.trim() !== '') {
           cardHTML =
-          `<div class="col pb-2">
+          `<dix class="col pb-2">
             <div class="col">
-                  <div class="card" style="width: 15rem;">
-                  <img src="../assets/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
-                      <div class="card-body text-center">
-                      <h6 class="card-title">${producto.nombre}</h6>
-                      <p>${producto.subcategoria}</p>
-                      <h5 class="card-title">$ ${producto.precio}</h5>
-                      <div class="d-flex justify-content-around">
-                      <a href="#" class="text-decoration-none resta p-2">-</a>
-                      <a href="#" class="text-decoration-none count p-2">0</a>
-                      <a href="#" class="text-decoration-none suma p-2">+</a>
-                      </div>
-                      <button type="button" class="btn btn-primary add-to-cart-btn w-75">Agregar</button>
-                        </div>
-                  </div>
-                  </div>
-          </div>`;
+              <div class="card" style="width: 15rem;">
+                <img src="../assets/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
+                <div class="card-body text-center">
+                  <h6 class="card-title">${producto.nombre}</h6>
+                  <p>${producto.subcategoria}</p>
+                  <h5 class="card-title">$ ${producto.precio}</h5>
+                </div>
+              </div>
+            </div>
+          </dix xv>`;
+          // <div class="d-flex justify-content-around">
+          // <a href="#" class="text-decoration-none resta p-2">-</a>
+          // <a href="#" class="text-decoration-none count p-2">0</a>
+          // <a href="#" class="text-decoration-none suma p-2">+</a>
+          // </div>
+          // <button type="button" class="btn btn-primary add-to-cart-btn w-75">Agregar</button>
         } else {
           console.warn(`La imagen no está presente o no es válida para el producto: ${producto.nombre}`);
         }
-
 
         
         switch (producto.categoria.toLowerCase()) {
