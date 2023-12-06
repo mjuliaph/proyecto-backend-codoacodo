@@ -95,3 +95,28 @@ footer {
     height: auto;
     margin: 0.75rem auto;
 }
+
+
+.cart-product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+
+.add-to-cart-btn {
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.increment-btn {
+    background-color: springgreen;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.decrement-btn {
+    background-color: red;
+    width: 40px;
+    border-radius: 10px;
+}

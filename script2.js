@@ -46,14 +46,21 @@ document.addEventListener('DOMContentLoaded', function () {
       if (product && product.nombre && product.precio && product.id) {
           const quantity = cart.reduce((acc, curr) => (curr.id === product.id ? acc + 1 : acc), 0);
 
-          productElement.innerHTML = `
-              <h3>${product.nombre}</h3>
-              <p>Precio: $${product.precio.toFixed(2)}</p>
-              <p>Cantidad: ${quantity}</p>
-              <button class="add-to-cart-btn" data-product='${JSON.stringify(product)}'>Agregar al carrito</button>
-              <button class="increment-btn" data-product-id='${product.id}'>+</button>
-              <button class="decrement-btn" data-product-id='${product.id}'>-</button>
-          `;
+          productElement.innerHTML =
+          `<div class="col pb-2">
+          <div class="col">
+          <div class="cart-product py-5">
+            <h3>${product.nombre}</h3>
+            <p>Precio: $${product.precio.toFixed(2)}</p>
+            <p>Cantidad: ${quantity}</p>
+            <div class="d-flex flex-row">
+                <button class="add-to-cart-btn" data-product='${JSON.stringify(product)}'>Agregar al carrito</button>
+                <button class="increment-btn" data-product-id='${product.id}'>+</button>
+                <button class="decrement-btn" data-product-id='${product.id}'>-</button>
+            </div>
+        </div>
+        </div>
+        </div>`;
 
           // Agregar event listener al botón "Agregar al carrito"
           const addToCartButton = productElement.querySelector('.add-to-cart-btn');

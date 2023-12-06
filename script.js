@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let cardHTML = '';
         if (producto.imagen && typeof producto.imagen === 'string' && producto.imagen.trim() !== '') {
           cardHTML =
-          `<dix class="col pb-2">
+          `<div class="col pb-2">
             <div class="col">
               <div class="card" style="width: 15rem;">
                 <img src="../assets/${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 </div>
               </div>
             </div>
-          </dix xv>`;
+          </div>`;
           // <div class="d-flex justify-content-around">
           // <a href="#" class="text-decoration-none resta p-2">-</a>
           // <a href="#" class="text-decoration-none count p-2">0</a>
