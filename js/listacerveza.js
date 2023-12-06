@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             productosVino.forEach(producto => {
                 html += `<div class="col-md-4 mb-4">
                             <div class="card" style="width: 18rem;">
-                                <img src="./assets/cerveza1.png" class="card-img-top" alt="cerveza">
+                                <img src="../assets/cerveza1.png" class="card-img-top" alt="cerveza">
                                 <div class="card-body">
                                     <h5 class="card-title">$${producto.precio}</h5>
                                     <p class="card-text">${producto.nombre} ${producto.tamano_cc}cc</p>
